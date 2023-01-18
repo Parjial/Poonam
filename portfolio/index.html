@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Poonam</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contactme
+              </a>
+            </li>
+          </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+           </div>
+        
+        <div class="nav__btns">
+
+            <!--====Theme Change button=====-->
+            <i class="uil uil-moon change-theme" id="theme-button"></i> <p class="theme-name ">Light</p>/<p class="dtheme-name ">Dark</p>
+
+          <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                  <i class="uil uil-linkedin-alt"></i>
+              </a>
+             
+              <a href="https://www.instagram.com/_pnegi_/" target="_blank" class="home__social-icon">
+                <i class="uil uil-instagram"></i>
+              </a>
+             
+
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    <image class="home__blob-img" x="12" y="18" href="assets/img/perfil.png"/>
+                </g>
+            </svg>
+            
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I am Poonam Negi</h1>
+              <h3 class="home__subtitle">Accounts Assistant</h3>
+              <p class="home__description">Organized Accounts Assistant knowledgeable in various accounting programs and possesing computer skills.</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow home__scroll-mouse"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+    
+        <div class="about__container container grid">
+          <img src="assets/img/about.png" alt="" class="about__img">
+
+          <div class="about__data">
+            <p class="about_description">I am an Accounts Assistant acknowleged for reliability, integrity, multi-tasking and quick learning ability. Dedicated with strongwork ethic and resourceful nature. </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">02</span>
+                <span class="about__info-name">Years <br> experience</span>
+              </div>
+              <div>
+                <span class="about__info-title">01</span>
+                <span class="about__info-name">Company <br> Worked</span>
+              </div>
+              <div>
+                <span class="about__info-title">02</span>
+                <span class="about__info-name">Differrent <br> Positions</span>
+              </div>
+
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="assets/pdf/cv.pdf" class="button button--flex">
+              Download CV<i class="uil uil-download-alt button__icon"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+       
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================Skills1=======================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-smile skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Soft Skills</h1>
+                  
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-comment-message"></i>
+                    <h3 class="skills__name">Communication Skills</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cs"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-bolt"></i>
+                    <h3 class="skills__name">Quick Learner</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ql"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-assistive-listening-systems"></i>
+                    <h3 class="skills__name">Attentive while working</h3>
+                    <span class="skills__number">100%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__att"></span>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <!--=========================Skills2====================================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-key-skeleton-alt skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Key Skills</h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-microsoft"></i>
+                    <h3 class="skills__name">Microsoft Office</h3>
+                    <span class="skills__number">100%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage ms"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-receipt-alt"></i>
+                    <h3 class="skills__name">Auditing</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__au"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-desktop-alt"></i>
+                    <h3 class="skills__name">Computax Software</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__c"></span>
+                  </div>
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <i class="uil uil-html5"></i>
+                    
+                    <h3 class="skills__name">HTML and Java</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+              </div>
+              </div>
+            
+
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">QUALIFICATION</h2>
+   
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active " data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==========================Qualification content 1=======================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+              <!--=======================Qualification1========================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Bachelors of Commerce</h3>
+                  <span class="qualification__subtitle">Delhi University</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+              </div>
+              <!-- =======================Qualification2========================
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Senior Secondary School (11-12)</h3>
+                  <span class="qualification__subtitle">Aravali International School</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2017 - 2019
+                  </div>
+                </div>               
+              </div>
+
+              ======================Qualification3========================-->
+              <!-- <div class="qualification__data">
+
+
+
+                
+
+                <div>
+                  <h3 class="qualification__title">Secondary School (Class 6-10)</h3>
+                  <span class="qualification__subtitle">DAV Public School</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2012 - 2017
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                <============  <span class="qualification__line"></span>======--
+                </div>  -->
+              </div>              
+           </div>
+
+            <!--==========================Qualification content 2=======================-->
+            <div class="qualification__content " data-content id="work">
+              <!--=======================Qualification1========================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Accounts Intern</h3>
+                  <span class="qualification__subtitle">KPMC & Associates</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    07/21 - 03/22
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+              </div>
+              <!--=======================Qualification2========================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Accounts Assistant</h3>
+                  <span class="qualification__subtitle">KPMC & Associates</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    07/22 - Present
+                  </div>
+                </div>               
+              </div>
+              </div>              
+           </div>
+</section>
+      <!--==================== CONTACT ME ====================-->
+      <div></div>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+       
+
+        <div class="container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+91 9315115575</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">pnegi1276@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">India - Mayur Vihar Ph-I, Delhi</span>
+              </div>
+            </div>
+
+
+          </div>
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Poonam</h1>
+            <span class="footer__subtitle">Accounts Assistant</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#home" class="footer__links">Home</a>
+            </li>
+            <li>
+              <a href="#skills" class="footer__links">Skills</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__links">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/_pnegi_/" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/_pnegi_/" target="_blank"  class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://www.instagram.com/_pnegi_/" target="_blank"  class="footer__social">
+              <i class="uil uil-linkedin"></i>
+            </a>
+          </div>
+          
+        </div>
+        <div class="footer__last">
+          <img src="assets/img/1.png" alt="" class="footer__img1">
+          <img src="assets/img/2.png" alt="" class="footer__img1">
+          <img src="assets/img/3.png" alt="" class="footer__img1"></div>
+        <p class="footer__copy">&#169; ParthKarki. All rights reserved</p>
+        <p class="footer__copy">Website build and Developed by Parth Karki<br> Contact me <br> <a href="https://parjial.github.io/Portfolio/" target="_blank"  class="footer__social">Visit my website.     
+          <i class="uil uil-window"></i> </a></p>
+          
+
+        
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon" ></i>
+      </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
